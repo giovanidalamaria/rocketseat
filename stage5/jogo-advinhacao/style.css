@@ -1,0 +1,97 @@
+/* Resets importantes */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    background: linear-gradient(107.56deg, #C2E9FB 0%, #A1C4FD 100%);
+    font-size: 1.6rem;
+
+    display: grid;
+    place-items: center;
+
+    height: 100vh;;
+}
+
+body, button, input {
+    font-family: "DM Sans", sans-serif;
+}
+
+button {
+    background-color: #7879F1;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0 .4rem .4rem 0;
+    transition: background .5s;
+}
+
+button:hover {
+    /*filter: brightness(220%); não funciona com o transition*/
+    background-color: #3939aa;
+}
+
+main {
+    background: #FFFFFF;
+    box-shadow: 0 .2rem .4rem rgba(0, 0, 0, 0.1);
+    border-radius: .6rem;
+    padding: 4.8rem 6.4rem 6.4rem;
+
+    width: min(42.8rem, 90%);
+    margin-top: -12rem;
+
+    text-align: center;
+}
+
+h1, h2, p {
+    color: #34355B;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.4rem;
+}
+
+p {
+    margin-top: 1.6rem;
+    opacity: 0.8;
+}
+
+form {
+    margin-top: 4.8rem;
+    display: flex;
+    justify-content: center;
+}
+
+input, button {
+    border: 0;
+    padding: 1.6rem;
+}
+
+input {
+    background-color: #DCE2E9;
+    width: 5rem;
+    border-radius: .4rem 0 0 .4rem;
+}
+
+.hide {
+    display: none;
+}
+
+h2 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 2.4rem;
+    font-weight: normal;
+
+    margin-bottom: 3.3rem;
+}
+
+.screen2 button {
+    border-radius: 0.4rem;
+}
